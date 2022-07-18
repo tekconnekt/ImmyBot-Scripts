@@ -4,7 +4,7 @@ $destination = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup"
 $BGConfig = "$env:APPDATA\bginfo64"
 
 #Reminder to delete this line before final release
-$InstallerFolder = C:\Users\TannerLange\Documents\GitHub\ImmyBot-Scripts\BGInfo\BGInfo-Installer-Folder
+$InstallerFolder = "C:\Users\TannerLange\Documents\GitHub\ImmyBot-Scripts\BGInfo\BGInfo-Installer-Folder"
 
 Copy-Item $InstallerFolder\Bginfo64.exe $destination
 Copy-Item $InstallerFolder\Bgiconfig.bgi $BGConfig
